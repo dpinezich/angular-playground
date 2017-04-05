@@ -1,0 +1,9 @@
+#circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
