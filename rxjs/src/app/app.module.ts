@@ -6,16 +6,19 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MouseventComponent } from './mousevent/mousevent.component';
+import { XmlhttpComponent } from './xmlhttp/xmlhttp.component';
 
 
 const appRoutes: Routes = [
   { path: 'mousevent', component: MouseventComponent },
+  { path: 'xmlhttp', component: XmlhttpComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    MouseventComponent
+    MouseventComponent,
+    XmlhttpComponent
   ],
   imports: [
     BrowserModule,

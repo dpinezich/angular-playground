@@ -11,7 +11,7 @@ export class MouseventComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let circle = document.getElementById("circle");
+    let circle = document.getElementById('circle');
     let source = Observable.fromEvent(document, 'mousemove')
     .map((e: MouseEvent) => {
       return {
